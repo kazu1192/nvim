@@ -1,0 +1,84 @@
+# Base plugins
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
+
+# LSP client
+[[plugins]]
+repo = 'autozimu/LanguageClient-neovim'
+rev = 'next'
+build = 'bash install.sh'
+
+# Status Line
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+# Quickrun
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+# Markdown
+[[plugins]]
+repo = 'iamcco/markdown-preview.vim'
+
+[[plugins]]
+repo = 'dhruvasagar/vim-table-mode'
+
+# Lint
+[[plugins]]
+repo = 'w0rp/ale'
+
+# Git
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+
+# fzf
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+# Completion
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'alvan/vim-closetag'
+
+[[plugins]]
+repo = 'mattn/sonictemplate-vim'
+
+[[plugins]]
+repo = 'prettier/vim-prettier'
+build = 'yarn install'
+
+# deoplete
+[[plugins]]
+repo = 'ujihisa/neco-look'
+
+# CheatSheet
+[[plugins]]
+repo = 'reireias/vim-cheatsheet'
+
+# Themes
+[[plugins]]
+repo = 'KKPMW/moonshine-vim'
+
+[[plugins]]
+repo = 'AlessandroYorba/Alduin'
+
+[[plugins]]
+repo = 'arcticicestudio/nord-vim'
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+
+[[plugins]]
+repo = 'jacoborus/tender.vim'
+hook_add = '''
+  colorscheme tender
+'''
