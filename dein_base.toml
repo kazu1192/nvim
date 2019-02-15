@@ -27,13 +27,12 @@ repo = 'iamcco/markdown-preview.vim'
 [[plugins]]
 repo = 'dhruvasagar/vim-table-mode'
 
-# Lint
-[[plugins]]
-repo = 'w0rp/ale'
-
 # Git
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
 
 # fzf
 [[plugins]]
@@ -52,10 +51,6 @@ repo = 'alvan/vim-closetag'
 [[plugins]]
 repo = 'mattn/sonictemplate-vim'
 
-[[plugins]]
-repo = 'prettier/vim-prettier'
-build = 'yarn install'
-
 # deoplete
 [[plugins]]
 repo = 'ujihisa/neco-look'
@@ -69,16 +64,20 @@ repo = 'reireias/vim-cheatsheet'
 repo = 'KKPMW/moonshine-vim'
 
 [[plugins]]
-repo = 'AlessandroYorba/Alduin'
-
-[[plugins]]
 repo = 'arcticicestudio/nord-vim'
 
 [[plugins]]
-repo = 'morhetz/gruvbox'
+repo = 'jacoborus/tender.vim'
 
 [[plugins]]
-repo = 'jacoborus/tender.vim'
+repo = 'sjl/badwolf'
+
+[[plugins]]
+repo = 'maksimr/Lucius2'
 hook_add = '''
-  colorscheme tender
+  colorscheme lucius
 '''
+
+# Lint
+[[plugins]]
+repo = 'w0rp/ale'

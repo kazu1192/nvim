@@ -24,6 +24,10 @@ let g:ale_linters = {
 
 " fix
 let g:ale_fixers = {
+  \   'ruby': ['rubocop'],
+  \   'javascript': ['prettier'],
   \   'markdown': ['prettier'],
+  \   'html': ['prettier'],
   \   'css': ['prettier'],
+  \   'json': ['prettier'],
   \}
