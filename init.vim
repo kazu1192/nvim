@@ -30,3 +30,4 @@ source ~/.config/nvim/dein.rc.vim
 " theme
 set termguicolors
 set background=dark
+colorscheme nord
