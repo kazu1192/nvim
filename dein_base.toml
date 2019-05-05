@@ -51,10 +51,6 @@ repo = 'alvan/vim-closetag'
 [[plugins]]
 repo = 'mattn/sonictemplate-vim'
 
-# Lint
-[[plugins]]
-repo = 'w0rp/ale'
-
 # deoplete
 [[plugins]]
 repo = 'ujihisa/neco-look'

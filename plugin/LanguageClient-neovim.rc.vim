@@ -1,6 +1,8 @@
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
-      \ 'ruby': ['solargraph','stdio'],
+      \ 'c': ['clangd'],
+      \ 'cpp': ['clangd'],
+      \ 'ruby': ['solargraph', 'stdio'],
       \ 'java': ['/usr/bin/jdtls'],
       \}
 
