@@ -22,10 +22,10 @@ repo = 'thinca/vim-quickrun'
 
 # Markdown
 [[plugins]]
-repo = 'iamcco/markdown-preview.vim'
+repo = 'plasticboy/vim-markdown'
 
 [[plugins]]
-repo = 'dhruvasagar/vim-table-mode'
+repo = 'previm/previm'
 
 # Git
 [[plugins]]
@@ -50,6 +50,10 @@ repo = 'alvan/vim-closetag'
 
 [[plugins]]
 repo = 'mattn/sonictemplate-vim'
+
+# ale
+[[plugins]]
+repo = 'w0rp/ale'
 
 # deoplete
 [[plugins]]
