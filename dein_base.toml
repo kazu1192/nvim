@@ -46,10 +46,13 @@ repo = 'mattn/emmet-vim'
 repo = 'cohama/lexima.vim'
 
 [[plugins]]
-repo = 'alvan/vim-closetag'
+repo = 'mattn/sonictemplate-vim'
 
 [[plugins]]
-repo = 'mattn/sonictemplate-vim'
+repo = 'vim-scripts/AnsiEsc.vim'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
 
 # ale
 [[plugins]]

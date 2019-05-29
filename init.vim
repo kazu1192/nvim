@@ -1,23 +1,43 @@
 " options
+set encoding=utf-8
+scriptencoding utf-8
+
+set fileencoding=utf-8
+set fileencodings=ucs-boms,utf-8,euc-jp,cp932
+set fileformats=unix,dos,mac
 set ambiwidth=double
+
+set expandtab
+set tabstop=2
+set softtabstop=2
 set autoindent
+set smartindent
+set shiftwidth=2
+
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
+
+set number
+set cursorline
+
+set showmatch
+
+set wildmenu
+set history=5000
+
 set autoread
 set backspace=indent,eol,start
-set cursorline
 set clipboard^=unnamedplus
-set expandtab
 set laststatus=2
 set hls
-set number
 set scrolloff=5
 set showcmd
-set shiftwidth=2
-set smartindent
-set softtabstop=2
-set tabstop=2
 
 " command
 inoremap jj <Esc>
+nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 
 " autocmd
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
@@ -25,10 +45,10 @@ autocmd BufNewFile,BufRead *.erb set filetype=eruby.html
 autocmd BufNewFile,BufRead *.slim set filetype=slim.html
 autocmd BufNewFile,BufRead *.scss set filetype=scss.css
 
-" dein
+" source
 source ~/.config/nvim/dein.rc.vim
+source $VIMRUNTIME/macros/matchit.vim 
 
 " theme
-set termguicolors
 set background=dark
-colorscheme nord
+colorscheme moonshine
