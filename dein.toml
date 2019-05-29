@@ -6,11 +6,35 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/vimproc.vim'
 build = 'make'
 
-# LSP client
+# lsp
 [[plugins]]
-repo = 'autozimu/LanguageClient-neovim'
-rev = 'next'
-build = 'bash install.sh'
+repo = 'neoclide/coc.nvim'
+build = './install.sh nightly'
+
+# ale
+[[plugins]]
+repo = 'w0rp/ale'
+
+# Completion
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'vim-scripts/AnsiEsc.vim'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+# syntax
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+[[plugins]]
+repo = 'ujihisa/neco-look'
+
+# fzf
+[[plugins]]
+repo = 'junegunn/fzf.vim'
 
 # Status Line
 [[plugins]]
@@ -22,10 +46,7 @@ repo = 'thinca/vim-quickrun'
 
 # Markdown
 [[plugins]]
-repo = 'plasticboy/vim-markdown'
-
-[[plugins]]
-repo = 'previm/previm'
+repo = 'iamcco/markdown-preview.vim'
 
 # Git
 [[plugins]]
@@ -33,34 +54,6 @@ repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = 'tpope/vim-fugitive'
-
-# fzf
-[[plugins]]
-repo = 'junegunn/fzf.vim'
-
-# Completion
-[[plugins]]
-repo = 'mattn/emmet-vim'
-
-[[plugins]]
-repo = 'cohama/lexima.vim'
-
-[[plugins]]
-repo = 'mattn/sonictemplate-vim'
-
-[[plugins]]
-repo = 'vim-scripts/AnsiEsc.vim'
-
-[[plugins]]
-repo = 'Yggdroot/indentLine'
-
-# ale
-[[plugins]]
-repo = 'w0rp/ale'
-
-# deoplete
-[[plugins]]
-repo = 'ujihisa/neco-look'
 
 # CheatSheet
 [[plugins]]

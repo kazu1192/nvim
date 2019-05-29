@@ -22,8 +22,6 @@ set hlsearch
 set number
 set cursorline
 
-set showmatch
-
 set wildmenu
 set history=5000
 
@@ -34,6 +32,7 @@ set laststatus=2
 set hls
 set scrolloff=5
 set showcmd
+set showmatch
 
 " command
 inoremap jj <Esc>
