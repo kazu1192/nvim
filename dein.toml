@@ -11,10 +11,6 @@ build = 'make'
 repo = 'neoclide/coc.nvim'
 build = './install.sh nightly'
 
-# ale
-[[plugins]]
-repo = 'w0rp/ale'
-
 # Completion
 [[plugins]]
 repo = 'cohama/lexima.vim'
