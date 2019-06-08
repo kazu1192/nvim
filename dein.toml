@@ -30,6 +30,10 @@ repo = 'ujihisa/neco-look'
 
 # fzf
 [[plugins]]
+repo = 'junegunn/fzf'
+build = './install --all'
+
+[[plugins]]
 repo = 'junegunn/fzf.vim'
 
 # Status Line

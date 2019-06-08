@@ -50,4 +50,4 @@ source $VIMRUNTIME/macros/matchit.vim
 
 " theme
 set background=dark
-colorscheme moonshine
+colorscheme moonshine_minimal
