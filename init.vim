@@ -20,6 +20,7 @@ set smartcase
 set hlsearch
 
 set number
+set relativenumber
 set cursorline
 
 set wildmenu
