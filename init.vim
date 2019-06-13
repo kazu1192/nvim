@@ -34,6 +34,8 @@ set hls
 set scrolloff=5
 set showcmd
 set showmatch
+set noswapfile
+set viminfo=
 
 " command
 inoremap jj <Esc>
