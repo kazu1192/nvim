@@ -61,16 +61,4 @@ repo = 'reireias/vim-cheatsheet'
 
 # Themes
 [[plugins]]
-repo = 'KKPMW/moonshine-vim'
-
-[[plugins]]
-repo = 'arcticicestudio/nord-vim'
-
-[[plugins]]
-repo = 'jacoborus/tender.vim'
-
-[[plugins]]
-repo = 'sjl/badwolf'
-
-[[plugins]]
-repo = 'maksimr/Lucius2'
+repo = 'cocopon/iceberg.vim'
