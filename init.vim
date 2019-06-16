@@ -35,6 +35,7 @@ set scrolloff=5
 set showcmd
 set showmatch
 set noswapfile
+set noshowmode
 set viminfo=
 
 " command
@@ -48,9 +49,5 @@ autocmd BufNewFile,BufRead *.slim set filetype=slim.html
 autocmd BufNewFile,BufRead *.scss set filetype=scss.css
 
 " source
-source ~/.config/nvim/dein.rc.vim
+source ~/.config/nvim/dein.vim
 source $VIMRUNTIME/macros/matchit.vim 
-
-" theme
-set background=dark
-colorscheme iceberg
