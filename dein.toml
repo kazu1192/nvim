@@ -1,4 +1,4 @@
-# Base plugins
+# BASE PLUGINS
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
@@ -6,46 +6,56 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/vimproc.vim'
 build = 'make'
 
-# LSP
+# VIEW PLUGINS
 [[plugins]]
-repo = 'neoclide/coc.nvim'
-build = './install.sh nightly'
+repo = 'majutsushi/tagbar'
 
-# Completion
 [[plugins]]
-repo = 'cohama/lexima.vim'
+repo = 'itchyny/lightline.vim'
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+[[plugins]]
+repo = 'gorodinskiy/vim-coloresque'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
 
-# Quickrun
+# INPUT PLUGINS
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+build = './install.sh nightly'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
 [[plugins]]
 repo = 'thinca/vim-quickrun'
 
-# Files
+# FILE PLUGINS
 [[plugins]]
 repo = 'junegunn/fzf'
 build = './install --all'
 
-[[plugins]]
+plugins]]
 repo = 'junegunn/fzf.vim'
 
-# Status Line
-[[plugins]]
-repo = 'itchyny/lightline.vim'
-
-# Git
+# GIT
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
-# CheatSheet
+# OTHER PLUGINS
 [[plugins]]
 repo = 'reireias/vim-cheatsheet'
 
-# Themes
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
+# THEMES
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
 hook_add = 'au MyAutoCmd VimEnter * nested colorscheme iceberg'

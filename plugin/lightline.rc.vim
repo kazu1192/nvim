@@ -1,17 +1,14 @@
 let g:lightline = {
-  \'colorscheme': 'jellybeans',
+  \'colorscheme': 'wombat',
   \'active': {
-    \'left': [['prepare', 'mode'], ['filename'], ['fugitive']],
-    \'right': [['currentfunction', 'lineinfo', 'fileinfo', 'cocstatus']]
+    \'left': [['mode'], ['filename','filetype', 'fugitive']],
+    \'right': [['cocstatus', 'currentfunction', 'modified', 'lineinfo']]
   \},
   \'component_function': {
     \'fugitive': 'fugitive#head',
     \'cocstatus': 'coc#status',
     \'currentfunction': 'CocCurrentFunction'
   \},
-  \'component_visible_condition': {
-    \'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
-  \}
 \}
 
 let g:lightline.inactive = g:lightline.active
