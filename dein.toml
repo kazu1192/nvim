@@ -31,7 +31,7 @@ build = './install.sh nightly'
 repo = 'cohama/lexima.vim'
 
 [[plugins]]
-repo = 'thinca/vim-quickrun'
+repo = 'kassio/neoterm'
 
 # FILE PLUGINS
 [[plugins]]
