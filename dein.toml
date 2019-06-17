@@ -8,13 +8,7 @@ build = 'make'
 
 # VIEW PLUGINS
 [[plugins]]
-repo = 'majutsushi/tagbar'
-
-[[plugins]]
 repo = 'itchyny/lightline.vim'
-
-[[plugins]]
-repo = 'nathanaelkane/vim-indent-guides'
 
 [[plugins]]
 repo = 'gorodinskiy/vim-coloresque'
@@ -49,9 +43,6 @@ repo = 'airblade/vim-gitgutter'
 repo = 'tpope/vim-fugitive'
 
 # OTHER PLUGINS
-[[plugins]]
-repo = 'reireias/vim-cheatsheet'
-
 [[plugins]]
 repo = 'sheerun/vim-polyglot'
 

@@ -38,15 +38,9 @@ set noswapfile
 set noshowmode
 set viminfo=
 
-" Terminal
 set sh=bash
-tnoremap <silent> <ESC> <C-\><C-n><C-w>
 
-" command
-inoremap jj <Esc>
-nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
-
-" source
 source ~/.config/nvim/dein.vim
 source ~/.config/nvim/autocmd.vim
+source ~/.config/nvim/map.vim
 source $VIMRUNTIME/macros/matchit.vim
