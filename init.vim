@@ -42,12 +42,15 @@ set viminfo=
 inoremap jj <Esc>
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 
+<<<<<<< HEAD
 " autocmd
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
 autocmd BufNewFile,BufRead *.erb set filetype=eruby.html
 autocmd BufNewFile,BufRead *.slim set filetype=slim.html
 autocmd BufNewFile,BufRead *.scss set filetype=scss.css
 
+=======
+>>>>>>> reset: git reset
 " source
 source ~/.config/nvim/dein.vim
 source $VIMRUNTIME/macros/matchit.vim 
