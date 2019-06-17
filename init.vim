@@ -42,7 +42,10 @@ set viminfo=
 inoremap jj <Esc>
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 
+" theme
+set background=dark
+
 " source
-source ~/.config/nvim/dein.vim
 source ~/.config/nvim/autocmd.vim
-source $VIMRUNTIME/macros/matchit.vim 
+source ~/.config/nvim/dein.vim
+source $VIMRUNTIME/macros/matchit.vim
