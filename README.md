@@ -1,7 +1,7 @@
-NeoVimConfig
+NeoVim Config
 ============
 
-NeoVim plugin settings
+my NeoVim settings
 
 (installed ruby, python, nodejs)
 
@@ -73,7 +73,7 @@ Ruby
 
 Java
 
-* eclipse.jdt.ls (LSP) 
+* eclipse.jdt.ls (LSP)
 
 
 
