@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Base plugins
-=======
 # BASE PLUGINS
->>>>>>> reset: git reset
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
@@ -10,9 +6,6 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/vimproc.vim'
 build = 'make'
 
-<<<<<<< HEAD
-# LSP
-=======
 # VIEW PLUGINS
 [[plugins]]
 repo = 'majutsushi/tagbar'
@@ -23,82 +16,46 @@ repo = 'itchyny/lightline.vim'
 [[plugins]]
 repo = 'nathanaelkane/vim-indent-guides'
 
-# INPUTS PLUGINS
->>>>>>> reset: git reset
-[[plugins]]
-repo = 'neoclide/coc.nvim'
-build = './install.sh nightly'
-
-<<<<<<< HEAD
-# Completion
-=======
->>>>>>> reset: git reset
-[[plugins]]
-repo = 'cohama/lexima.vim'
-
-[[plugins]]
-<<<<<<< HEAD
-repo = 'Yggdroot/indentLine'
-
-# Quickrun
-[[plugins]]
-repo = 'thinca/vim-quickrun'
-
-# Files
-=======
-repo = 'sheerun/vim-polyglot'
-
-[[plugins]]
-repo = 'thinca/vim-quickrun'
-
 [[plugins]]
 repo = 'gorodinskiy/vim-coloresque'
 
 [[plugins]]
-repo = 'bronson/vim-trailing-whitespace'
+repo = 'Yggdroot/indentLine'
+
+# INPUT PLUGINS
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+build = './install.sh nightly'
 
 [[plugins]]
-repo = 'kana/vim-operator-user'
+repo = 'cohama/lexima.vim'
 
 [[plugins]]
-repo = 'haya14busa/vim-operator-flashy'
+repo = 'thinca/vim-quickrun'
 
-# FILES PLUGINS
->>>>>>> reset: git reset
+# FILE PLUGINS
 [[plugins]]
 repo = 'junegunn/fzf'
 build = './install --all'
 
-[[plugins]]
+plugins]]
 repo = 'junegunn/fzf.vim'
 
-<<<<<<< HEAD
-# Status Line
-[[plugins]]
-repo = 'itchyny/lightline.vim'
-
-=======
->>>>>>> reset: git reset
-# Git
+# GIT
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
-<<<<<<< HEAD
-# CheatSheet
-[[plugins]]
-repo = 'reireias/vim-cheatsheet'
-
-# Themes
-=======
 # OTHER PLUGINS
 [[plugins]]
 repo = 'reireias/vim-cheatsheet'
 
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+
 # THEMES
->>>>>>> reset: git reset
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
 hook_add = 'au MyAutoCmd VimEnter * nested colorscheme iceberg'
