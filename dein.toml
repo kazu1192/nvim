@@ -38,7 +38,7 @@ repo = 'thinca/vim-quickrun'
 repo = 'junegunn/fzf'
 build = './install --all'
 
-plugins]]
+[[plugins]]
 repo = 'junegunn/fzf.vim'
 
 # GIT
