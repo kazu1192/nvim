@@ -1,4 +1,4 @@
-" options
+" Neovim
 set encoding=utf-8
 scriptencoding utf-8
 
@@ -38,6 +38,10 @@ set noswapfile
 set noshowmode
 set viminfo=
 
+" Terminal
+set sh=bash
+tnoremap <silent> <ESC> <C-\><C-n><C-w>
+
 " command
 inoremap jj <Esc>
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
@@ -45,4 +49,4 @@ nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 " source
 source ~/.config/nvim/dein.vim
 source ~/.config/nvim/autocmd.vim
-source $VIMRUNTIME/macros/matchit.vim 
+source $VIMRUNTIME/macros/matchit.vim
