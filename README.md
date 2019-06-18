@@ -99,7 +99,6 @@ coc.nvim : LSP対応補完ツール
 - coc-html
 - coc-css
 
-vim チートシート
-<https://github.com/kazu1192/nvim/VIM_CHEATSHEET.md>
+[vim チートシート](VIM_CHEATSHEET.md)
 
 ...that's all
