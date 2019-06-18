@@ -100,6 +100,6 @@ coc.nvim : LSP対応補完ツール
 - coc-css
 
 vim チートシート
-<https://github.com/kazu1192/neovim/VIM_CHEATSHEET.md>
+<https://github.com/kazu1192/nvim/VIM_CHEATSHEET.md>
 
 ...that's all
