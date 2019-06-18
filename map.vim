@@ -1,8 +1,9 @@
-" command maps
+" COMMAND MAPS
 inoremap jj <Esc>
 tnoremap <silent> <ESC> <C-\><C-n><C-w>
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 
+" WINDOW MAPS
 nnoremap s <Nop>
 nnoremap sj <C-w>j
 nnoremap sk <C-w>k

@@ -1,46 +1,41 @@
+"
 " Neovim
-set encoding=utf-8
-scriptencoding utf-8
+"
 
-set fileencoding=utf-8
-set fileencodings=ucs-boms,utf-8,euc-jp,cp932
-set fileformats=unix,dos,mac
-set ambiwidth=double
-
-set expandtab
-set tabstop=2
-set softtabstop=2
-set autoindent
-set smartindent
-set shiftwidth=2
-
-set incsearch
-set ignorecase
-set smartcase
-set hlsearch
-
+" view
 set number
 set relativenumber
 set cursorline
+set nowrap
+set colorcolumn=80
+set pumheight=10
 
-set wildmenu
-set history=5000
-
-set autoread
-set backspace=indent,eol,start
+" inputs
 set clipboard^=unnamedplus
-set laststatus=2
-set hls
+set encoding=utf-8
+set fileencoding=utf-8
+set fileformats=unix,dos,mac
+set ambiwidth=double
+
+" tab
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set smartindent
+
+" search
+set ignorecase
+set smartcase
+
+" others
+set sh=bash
 set scrolloff=5
-set showcmd
 set showmatch
 set noswapfile
-set noshowmode
-set viminfo=
 
-set sh=bash
+syntax enable
 
 source ~/.config/nvim/dein.vim
-source ~/.config/nvim/autocmd.vim
+source ~/.config/nvim/cmd.vim
 source ~/.config/nvim/map.vim
-source $VIMRUNTIME/macros/matchit.vim

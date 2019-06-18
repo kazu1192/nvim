@@ -1,12 +1,33 @@
-NeoVim Config
-============
+# NeoVim Config
 
-my NeoVim settings
+## Info
 
-(installed ruby, python, nodejs)
+Neovim
 
-Installed NeoVim Plugins
-------------------------
+<https://github.com/neovim/neovim>
+
+dein.vim
+
+<https://github.com/Shougo/dein.vim>
+
+ファイル構成
+
+```
+.
+├── cmd.vim   // autocmd設定
+├── dein.toml // プラグイン指定
+├── dein.vim  // dein.vim設定
+├── init.vim  // main config
+├── map.vim   // 独自コマンド設定
+├── plugin    // プラグイン設定
+│   └── *setting files*
+├── README.md
+└── VIM_CHEATSHEET.md // Vim操作書
+```
+
+`:checkhealth` で実行環境ヨシ
+
+## Installed Plugins
 
 Base plugins
 
@@ -24,59 +45,58 @@ Lint
 Completion
 
 - cohama/lexima.vim
-- vim-scripts/AnsiEsc.vim
-- Yggdroot/indentLine
 
 Syntax
 
 - sheerun/vim-polyglot
-- ujihisa/neco-look
 
 fzf
 
+- junegunn/fzf
 - junegunn/fzf.vim
 
 Status Line
 
-- itchyny/lightline.vim
+- liuchengxu/eleline.vim
 
 Run
 
-- thinca/vim-quickrun
-
-Markdown
-
-- iamcco/markdown-preview.vim
+- kassio/neoterm
 
 Git
 
 - airblade/vim-gitgutter
 - tpope/vim-fugitive
 
-CheatSheet
-- reireias/vim-cheatsheet
-
 Themes
 
-- KKPMW/moonshine-vim
-- AlessandroYorba/Alduin
-- arcticicestudio/nord-vim
-- morhetz/gruvbox
-- jacoborus/tender.vim
+- cocopon/iceberg.vim
 
-Tips
-----
+## Tips
 
-Ruby
+ale : Lintツール
+<https://github.com/w0rp/ale>
 
-* solargraph (LSP)
+- rubocop
+- brakeman
+- pug-lint
+- prettier
+- vint
+- gitlint
+- hadolint
 
-Java
+coc.nvim : LSP対応補完ツール
+<https://github.com/neoclide/coc.nvim>
 
-* eclipse.jdt.ls (LSP)
-
-
-
-
+- coc-highlight
+- coc-yaml
+- coc-vetur
+- coc-tsserver
+- coc-solargraph
+- coc-phpls
+- coc-json
+- coc-java
+- coc-html
+- coc-css
 
 ...that's all
