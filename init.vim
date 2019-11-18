@@ -34,8 +34,12 @@ set scrolloff=5
 set showmatch
 set noswapfile
 
-syntax enable
-
 source ~/.config/nvim/dein.vim
 source ~/.config/nvim/cmd.vim
 source ~/.config/nvim/map.vim
+
+colorscheme iceberg
+syntax enable
+set t_Co=256
+set termguicolors
+set background=dark
