@@ -6,46 +6,65 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/vimproc.vim'
 build = 'make'
 
+# LSP
+[[plugins]]
+repo = 'autozimu/LanguageClient-neovim'
+rev = 'next'
+build = 'bash install.sh'
+hook_add = '''
+  source ~/.config/nvim/plugins/LanguageClient-neovim.rc.vim
+'''
+
 # View
 [[plugins]]
-repo = 'liuchengxu/eleline.vim'
-
-[[plugins]]
-repo = 'gorodinskiy/vim-coloresque'
-
-[[plugins]]
-repo = 'nathanaelkane/vim-indent-guides'
-
-# Input
-[[plugins]]
-repo = 'neoclide/coc.nvim'
-build = './install.sh nightly'
-
-[[plugins]]
-repo = 'cohama/lexima.vim'
-
-[[plugins]]
-repo = 'kassio/neoterm'
-
-# File
-[[plugins]]
-repo = 'junegunn/fzf'
-build = './install --all'
-
-[[plugins]]
-repo = 'junegunn/fzf.vim'
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+  source ~/.config/nvim/plugins/lightline.rc.vim
+'''
 
 # Git
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-gitgutter.rc.vim
+'''
 
 [[plugins]]
 repo = 'tpope/vim-fugitive'
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-fugitive.rc.vim
+'''
+
+# Linter
+[[plugins]]
+repo = 'w0rp/ale'
+hook_add = '''
+  source ~/.config/nvim/plugins/ale.rc.vim
+'''
 
 # Syntax
 [[plugins]]
-repo = 'sheerun/vim-polyglot'
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]]
+repo = 'posva/vim-vue'
+hook_add = '''
+source ~/.config/nvim/plugins/vim-vue.rc.vim
+'''
+
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
 
 # Theme
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
+hook_add = '''
+  set background=dark
+  au PluginInstall VimEnter * nested colorscheme iceberg
+'''
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
