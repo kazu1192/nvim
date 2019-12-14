@@ -22,6 +22,9 @@ hook_add = '''
   source ~/.config/nvim/plugins/lightline.rc.vim
 '''
 
+[[plugins]]
+repo = 'ap/vim-css-color'
+
 # Git
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
