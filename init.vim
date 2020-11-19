@@ -1,5 +1,10 @@
 " Neovim
 
+" source ~/.config/nvim/dein/dein.vim
+source ~/.config/nvim/vim-plug/plug.vim
+source ~/.config/nvim/cmd.vim
+source ~/.config/nvim/map.vim
+
 " view
 set number
 set relativenumber
@@ -32,8 +37,6 @@ set noswapfile
 set laststatus=2
 set noshowmode
 
-source ~/.config/nvim/dein.vim
-source ~/.config/nvim/cmd.vim
-source ~/.config/nvim/map.vim
-
 syntax enable
+set background=dark
+colorscheme iceberg
