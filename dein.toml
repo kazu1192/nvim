@@ -7,13 +7,6 @@ repo = 'Shougo/vimproc.vim'
 build = 'make'
 
 # LSP
-[[plugins]]
-repo = 'autozimu/LanguageClient-neovim'
-rev = 'next'
-build = 'bash install.sh'
-hook_add = '''
-  source ~/.config/nvim/plugins/LanguageClient-neovim.rc.vim
-'''
 
 # View
 [[plugins]]
@@ -64,10 +57,6 @@ repo = 'Shougo/neosnippet-snippets'
 # Theme
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
-hook_add = '''
-  set background=dark
-  au PluginInstall VimEnter * nested colorscheme iceberg
-'''
 
 [[plugins]]
 repo = 'morhetz/gruvbox'
