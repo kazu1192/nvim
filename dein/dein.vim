@@ -19,8 +19,8 @@ endif
 
 let g:dein#install_pax_processed = 48
 
-let s:toml_file = '~/.config/nvim/dein.toml'
-let s:lazy_file = '~/.config/nvim/lazy.toml'
+let s:toml_file = '~/.config/nvim/dein/dein.toml'
+let s:lazy_file = '~/.config/nvim/dein/lazy.toml'
 
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)

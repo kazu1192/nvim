@@ -1,6 +1,7 @@
 " Neovim
 
-source ~/.config/nvim/dein.vim
+" source ~/.config/nvim/dein/dein.vim
+source ~/.config/nvim/vim-plug/plug.vim
 source ~/.config/nvim/cmd.vim
 source ~/.config/nvim/map.vim
 
