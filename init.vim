@@ -12,13 +12,13 @@ endif
 
 " ======================== source settings files ========================
 if !empty(glob($HOME.'/.local/share/nvim/site/autoload/plug.vim'))
-  source $HOME/.config/nvim/rc.vim/vim-plug.vim
+  source $HOME/.config/nvim/_vim/vim-plug.vim
   if !empty(glob($DATA.'/plugged'))
-    source $HOME/.config/nvim/rc.vim/plug-options.rc.vim
+    source $HOME/.config/nvim/_vim/plug.options.vim
   endif
 endif
 
-let splt = split(glob($HOME.'/.config/nvim/rc.vim/' . '*.vim'))
+let splt = split(glob($HOME.'/.config/nvim/_vim/' . '*.vim'))
 for file in splt
   execute 'source' file
 endfor
