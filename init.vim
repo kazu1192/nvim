@@ -18,6 +18,7 @@ if !empty(glob($HOME.'/.local/share/nvim/site/autoload/plug.vim'))
   endif
 endif
 
-source $HOME/.config/nvim/rc.vim/options.rc.vim
-source $HOME/.config/nvim/rc.vim/keymap.rc.vim
-source $HOME/.config/nvim/rc.vim/autocmd.rc.vim
+let splt = split(glob($HOME.'/.config/nvim/rc.vim/' . '*.vim'))
+for file in splt
+  execute 'source' file
+endfor
